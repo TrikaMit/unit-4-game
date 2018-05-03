@@ -40,6 +40,10 @@ $('#loss-counter').text("losses: " + losses);
      dog2 = Math.floor(Math.random()*(12)+1);
      dog3 = Math.floor(Math.random()*(12)+1);
      dog4 = Math.floor(Math.random()*(12)+1);
+     console.log(dog1)
+    console.log(dog2)
+    console.log(dog3)
+    console.log(dog4)
      userGuess = 0;
      $('#target-score').html(targetNumber);
      $('#user-score').html(userGuess);
